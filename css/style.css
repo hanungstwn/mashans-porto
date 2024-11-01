@@ -14,6 +14,21 @@
     z-index: 99;
 }
 
+.image-square {
+    width: 100%;
+    padding-top: 100%; /* Membuat aspek rasio 1:1 */
+    position: relative;
+}
+
+.image-square img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+
 .my-6 {
     margin-top: 6rem;
     margin-bottom: 6rem;
